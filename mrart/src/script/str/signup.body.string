@@ -1,0 +1,53 @@
+<div class="section">
+    <div class="sec">
+        <div class="secbox">
+            <div class="signin">
+                <div class="signintop">
+                    <h2>用户注册</h2>
+                    <span>已有账号请</span>
+                    <a href="sign-in.html">&nbsp;&nbsp;转到登录页</a>
+                </div>
+                <div class="signinmain">
+                    <ul>
+                        <li>
+                            <label for><em>*</em>登录账号：</label>
+                            <span><input type="text" placeholder="用户名/邮箱地址/手机号,至少6个字符" id="myUser"></span>
+                            <span id="yz"></span>
+                        </li>
+                        <li>
+                            <label for><em>*</em>密码：</label>
+                            <span><input type="password" id="myPassword" value="" placeholder="填写密码"></span>
+                            <span id="mm"></span>
+                        </li>
+                        <li>
+                            <label for><em>*</em>确认密码：</label>
+                            <span><input type="password" id="myPassword2" placeholder="再次填写密码"></span>
+                            <span id="mm2"></span>
+                        </li>
+                        <li>
+                            <label for>如何知道艺先生：</label>
+                            <span><input type="text" value=""></span>
+                        </li>
+                        <li>
+                            <label for style="display: block"><em>*</em>验证码：</label>
+                            <input id="putin" type="text" placeholder="填写验证码" class="gradient"/>
+                            <span id="code" class="mycode"></span>
+                            <span id="zz"></span>
+                        </li>
+                        <li>
+                            <label for></label>
+                            <span class="remb">
+                                <input type="checkbox" checked>
+                                <span>我已阅读并同意<a href="#">会员注册协议</a>和<a href="#">隐私保护政策</a></span>
+                            </span>
+                        </li>
+                        <li class="sbtn">
+                            <label for></label>
+                            <button type="submit" value="注册" id="submit">注册</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

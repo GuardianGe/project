@@ -1,0 +1,11 @@
+<div class="root">
+    <p>© 2016 All rights reserved.</p>
+    <p>
+        本商店顾客个人信息将不会被泄漏给其他任何机构和个人<br/>
+        本商店logo和图片都已经申请保护，未经授权不得使用<br/>
+        有任何购物问题请联系我们在线客服 | 电话：010-87676166 | 工作时间：周一至周五 8:00－18:00
+    </p>
+    <p class="r01"><a href="#"><img src="img/r01.png" alt=""></a><span>京公网安备 11011502002602号</span></p>
+    <div class="r02">Powered By <a href="#"><img src="img/r02.png" alt=""></a></div>
+    <p>艺先生：<a href="#">mrart100</a></p>
+</div>

@@ -1,0 +1,181 @@
+
+<!----------------------banner----------------------------->
+<div class="banner">
+    <div id="turelist">
+        <ul id="imgul">
+            <li><a href="#"><img src="img/01.png" alt=""></a></li>
+            <li><a href="#"><img src="img/02.png" alt=""></a></li>
+            <li><a href="#"><img src="img/03.png" alt=""></a></li>
+            <li><a href="#"><img src="img/01.png" alt=""></a></li>
+        </ul>
+    </div>
+    <ul id="navul">
+        <li class="lion"><a href="#">1</a></li>
+        <li class="liun"><a href="#">2</a></li>
+        <li class="liun"><a href="#">3</a></li>
+    </ul>
+    <!--<div id="zuo">
+        aaa
+    </div>-->
+</div>
+<!--------------------- brand ----------------------------->
+<div class="brand">
+    <ul id="brandul">
+        <li class="brandli">精选品牌</li>
+        <li class="brandli">海外品牌</li>
+        <li class="brandli">国内品牌</li>
+        <li class="brandli">热门品牌</li>
+    </ul>
+    <a href="#">全部品牌+</a>
+    <div class="brandimg">
+        <ul>
+            <li class="bpage bpage01">
+                <ul>
+                    <li class="bimg"><a href="#"><img src="img/b01.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b02.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b03.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b04.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b05.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b06.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b07.jpg" alt=""></a></li>
+                    <li class="bimg"><a href="#"><img src="img/b08.jpg" alt=""></a></li>
+                </ul>
+            </li>
+            <li class="bpage">
+                <div>
+                    <ul>
+                        <li class="bimg"><a href="#"><img src="img/b21.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b22.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b23.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b24.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b25.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b26.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b27.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b28.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bpage">
+                <div>
+                    <ul>
+                        <li class="bimg"><a href="#"><img src="img/b31.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b32.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b33.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b34.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b35.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b36.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b37.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b38.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="bpage">
+                <div>
+                    <ul>
+                        <li class="bimg"><a href="#"><img src="img/b41.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b42.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b43.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b44.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b45.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b46.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b47.jpg" alt=""></a></li>
+                        <li class="bimg"><a href="#"><img src="img/b48.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!---------------------- section ----------------------------------->
+<div class="section">
+    <div class="sec">
+        <h3 class="stitle"><img src="img/s01.png" alt=""></h3>
+        <div class="sec-main">
+            <div class="sec-center">
+                <ul class="sLis">
+
+                </ul>
+            </div>
+            <div class="sec-right">
+                <h3>TOP热销榜</h3>
+                <div class="topbody">
+                    <ul class="topList">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec">
+        <h3 class="stitle"><img src="img/s02.png" alt=""></h3>
+        <div class="sec-main">
+            <div class="sec-center">
+                <ul class="sLis">
+
+                </ul>
+            </div>
+            <div class="sec-right">
+                <h3>TOP热销榜</h3>
+                <div class="topbody">
+                    <ul class="topList">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec">
+        <h3 class="stitle"><img src="img/s03.png" alt=""></h3>
+        <div class="sec-main">
+            <div class="sec-center">
+                <ul class="sLis">
+
+                </ul>
+            </div>
+            <div class="sec-right">
+                <h3>TOP热销榜</h3>
+                <div class="topbody">
+                    <ul class="topList">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec">
+        <h3 class="stitle"><img src="img/s04.png" alt=""></h3>
+        <div class="sec-main">
+            <div class="sec-center">
+                <ul class="sLis">
+
+                </ul>
+            </div>
+            <div class="sec-right">
+                <h3>TOP热销榜</h3>
+                <div class="topbody">
+                    <ul class="topList">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec">
+        <h3 class="stitle"><img src="img/s05.png" alt=""></h3>
+        <div class="sec-main">
+            <div class="sec-center">
+                <ul class="sLis">
+
+                </ul>
+            </div>
+            <div class="sec-right">
+                <h3>TOP热销榜</h3>
+                <div class="topbody">
+                    <ul class="topList">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

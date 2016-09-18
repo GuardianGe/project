@@ -1,0 +1,85 @@
+<div class="footer">
+    <div class="footbox">
+        <div class="footer-service">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/f01.gif" alt="">
+                        <div class="f1">
+                            <h3>秒邮费</h3>
+                            <p>满99包邮</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/f02.gif" alt="">
+                        <div class="f1">
+                            <h3>全正品</h3>
+                            <p>正品发票 假一赔十</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/f03.gif" alt="">
+                        <div class="f1">
+                            <h3>最放心</h3>
+                            <p>7天放心退</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-link">
+            <div class="fleft">
+                <a href="#">
+                    <img src="img/f11.png" alt="">
+                    <div>
+                        <h3>010-87676166</h3>
+                        <p>客服 9: 00-24: 00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="fcenter">
+                <div class="fcenter01">
+                    <h3>公司简介</h3>
+                    <ul>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">招聘信息</a></li>
+                        <li><a href="">业务合作</a></li>
+                    </ul>
+                </div>
+                <div class="fcenter01">
+                    <h3>购物条款</h3>
+                    <ul>
+                        <li><a href="">隐私保护政策</a></li>
+                        <li><a href="">会员注册协议</a></li>
+                        <li><a href="">网站使用条款</a></li>
+                        <li><a href="">购物条款</a></li>
+                    </ul>
+                </div>
+                <div class="fcenter01">
+                    <h3>新闻公告</h3>
+                    <ul>
+                        <li><a href="">银行系统升级通知</a></li>
+                        <li><a href="">商品评价改版升级</a></li>
+                        <li><a href="">8月8日暂停货品出库</a></li>
+                        <li><a href="">系统升级通知（周二）！</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fright">
+                <div class="fwei">
+                    <h2>艺先生微信</h2>
+                    <a href="#"><img src="img/fweixin.jpg" alt=""></a>
+                </div>
+                <div class="fwei">
+                    <h2>艺先生微博</h2>
+                    <a href="#"><img src="img/fweibo.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

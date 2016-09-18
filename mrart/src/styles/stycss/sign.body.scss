@@ -1,0 +1,189 @@
+@charset "utf-8";
+body{
+  background: #fbe1d3;
+}
+#head-info{
+  background: #fff;
+}
+#head-info ul li{
+  margin-left: 5px;
+  color: #666;
+  line-height: 30px;
+  border: 0;
+}
+#head-info ul li a{
+  color: #666;
+  display: block;
+}
+#head-info .nowidth{
+  width: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+#head-info .nobor{
+  border: 0;
+}
+.section{
+  height: 889px;
+}
+.sec{
+  width: 1200px;
+  height: 889px;
+  margin: 0 auto;
+}
+.secbox{
+  width:1060px;
+  height: 759px;
+  margin:100px;
+  background: url("../../img/sin01.png") no-repeat left center;
+}
+.signin{
+  width: 420px;
+  height: 709px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+  padding-bottom: 20px;
+  float: right;
+}
+.po{
+  position: relative;
+}
+.nl{
+  background: #f4efe4;
+  border-radius: 8px;
+  border: none;
+  width: 155px;
+  position: absolute;
+  top: 30px;
+  right: -50px;
+}
+.signintop{
+  width: 300px;
+  height: 40px;
+  padding: 25px 60px 20px;
+}
+.signintop h2{
+  color: #333;
+  font:22px/28px "Microsoft YaHei";
+}
+.signinmain{
+  width: 300px;
+  height: 407px;
+  padding: 0 60px;
+}
+.signinmain li{
+  width: 300px;
+  height: 75px;
+}
+.signinmain label{
+  font:500 12px/24px arial;
+  height: 32px;
+  display: inline-block;
+}
+.signinmain span input{
+  width: 278px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+.mycode {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  vertical-align: middle;
+  border: solid #999999 1px;
+  border-radius: 10px;
+  box-shadow: #000000 inset 0px 0px 2px;
+}
+#aa{
+  display: block;
+}
+.gradient{
+  width: 85px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.signinmain .remb input{
+  height: 32px;
+  width: 13px;
+  padding: 1px;
+  float: left;
+}
+.remb{
+  width: 300px;
+  height: 32px;
+  display: block;
+}
+
+.remb span{
+  font:12px/32px arial;
+  color: #a0a0a0;
+  float: left;
+  padding: 0 10px 0 5px;
+  text-decoration: underline;
+}
+#yz{
+  color: red;
+  margin-left: 200px;
+}
+#mm{
+  color: red;
+  margin-left: 200px;
+}
+#zz{
+  color: red;
+  display: block;
+  margin-left: 10px;
+}
+#submit{
+  display: block;
+  width: 300px;
+  height: 35px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  background-color: #da1529;
+  border: 0;
+  cursor: pointer;
+  font: 14px/2.5 Arial;
+  letter-spacing: 12px;
+}
+.forget{
+  font: 14px/28px "Microsoft Yahei";
+  color: #02b1cb;
+}
+.signinmain  .sbtn{
+  height: 107px;
+}
+.login{
+  width: 420px;
+  height: 114px;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px dotted #cccccc;
+}
+.logup{
+  width: 380px;
+  height: 28px;
+  padding: 10px 20px;
+}
+.logupa{
+  float: right;
+}
+.root{
+  background: #fff;
+}
+
+
+
+
+
+
+
+

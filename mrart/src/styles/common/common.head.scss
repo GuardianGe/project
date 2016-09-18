@@ -1,0 +1,223 @@
+/******************head*********************/
+.head:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.head-info{
+  background: #F2F2F2;
+  height: 30px;
+  line-height: 30px;
+}
+.head-info-box{
+  margin: 0 auto;
+  position: relative;
+  height: 30px;
+  width: 1200px;
+}
+.head-left{
+  float: left;
+}
+.head-left a{
+  color: rgb(246,38,72);
+}
+.head-right{
+  float: right;
+}
+.head-right ul li{
+  float: left;
+  text-indent: 6px;
+  margin-right: 10px;
+  border: solid #f2f2f2;
+  border-width:1px 1px 0 1px ;
+  position: relative;
+  z-index: 222;
+}
+.head-right ul li i{
+  width: 8px;
+  height: 4px;
+  padding: 0 4px;
+  margin: 0 0 3px 4px;
+  display: inline-block;
+  background:url("../../img/dot.gif") no-repeat left center;
+}
+#hnav .nobg a{
+  display: block;
+}
+#hnav .nobg a:hover{
+  color: red;
+  background: #f2f2f2;
+}
+#hnav .nobg{
+  overflow: hidden;
+}
+.li-phone span{
+  float: left;
+  background: url("../../img/icon-base2.gif") no-repeat -541px -249px;
+  width: 9px;
+  height: 30px;
+}
+.li-phone .l{
+  position: absolute;
+  left:-58px ;
+  top:30px;
+  width: 122px;
+  padding-left: 10px;
+}
+.navList{
+  display: none;
+  padding: 5px 0 10px;
+  background: #fff;
+  border: solid #f2f2f2;
+  border-width:0 1px 0 1px ;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  left: -1px;
+}
+.nl{
+  width: 137px;
+}
+.nl a{
+  float: left;
+  margin-right: 3px;
+}
+.navList a{
+  color: #333;
+  display: block;
+}
+.navList a:hover{
+  color:rgb(246,38,72);
+}
+.fcolor{
+  color: rgb(246,38,72);
+}
+.head-main{
+  width: 100%;
+  height: 97px;
+  background: #fff;
+}
+.head-main-box{
+  width: 1200px;
+  height: 97px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.searchl{
+  width: 485px;
+  height: 97px;
+  float: left;
+  margin-top: 5px;
+}
+.searchc{
+  width: 382px;
+  height: 21px;
+  border:2px solid #f52648;
+  border-radius:19px;
+  float: left;
+  padding: 5px 0 10px 14px;
+  position: relative;
+  margin-top: 28px;
+}
+.seatxt{
+  width: 300px;
+  height: 21px;
+  border: 0;
+  color: #666;
+  font-size: 14px;
+  background: #fff;
+  font-family: strong;
+  display: inline-block;
+}
+.seabtn{
+  background: #f52648;
+  width: 69px;
+  height: 36px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-family: strong;
+  font-weight: bold;
+  margin-top: -5px;
+  text-indent: -4px;
+  letter-spacing: -2px;
+  float: right;
+  border: 0;
+  position: absolute;
+  right: -1px;
+}
+.hots{
+  height: 22px;
+  color: #999;
+  font-family: strong;
+}
+.hots a{
+  padding: 0 4px;
+  color: #999;
+}
+.hots a:hover{
+  color: red;
+}
+.searchr{
+  width: 144px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 30px;
+  background: #f2f2f2;
+  float: right;
+  margin-top: 28px;
+}
+.searchr span{
+  float: left;
+  width: 26px;
+  height: 40px;
+  margin-left: 10px;
+  background: url("../../img/che.png") no-repeat left center;
+}
+.searchr div{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #f52648;
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  text-align: center;
+  line-height: 20px;
+  margin:10px 20px 0 0;
+}
+.nav{
+  background: #f52648;
+  height: 40px;
+}
+.navbox{
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+.navt{
+  margin-left: 305px;
+}
+.navt li{
+  float: left;
+}
+.navt li a{
+  float: left;
+  width: 106px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 12px;
+  font-size: 15px;
+  color: #fff;
+  font-family: strong;
+  font-weight: bold;
+}
+.navt li a:hover{
+  background: #df1738;
+}

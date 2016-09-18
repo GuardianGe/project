@@ -1,0 +1,258 @@
+body{
+  background: #efebe1;
+}
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.wrapt h1{
+  font: 400 24px/24px Microsoft YaHei;
+}
+.wrapt i{
+  display: inline-block;
+  margin: -3px 5px 0 0;
+  height: 36px;
+  width: 26px;
+  vertical-align: middle;
+  line-height: 36px;
+  font-size: 26px;
+  background: url("../../img/che.png") no-repeat left center;
+}
+.steps{
+  margin: 20px 0;
+}
+.steps table{
+  width: 1200px;
+}
+.stepsy{
+  width: 336px;
+  font:29px/30px Microsoft YaHei;
+  padding: 0 10px;
+  background: #f52648;
+}
+.stepsy i{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #ffffff;
+  background: #fff;
+  border-radius: 50%;
+  margin-top: 7px;
+  float: left;
+  margin-right: 6px;
+  text-align: center;
+  line-height: 22px;
+  color: #faa419;
+}
+.stepsy b{
+  font-size: 16px;
+  color: #fff;
+}
+.steps .stepsy .ste{
+  background: #ece5d6;
+
+}
+.stepsy .ste b{
+  color:#8c8c8c;
+}.stepsy .ste i{
+   background: #c1c1c1;
+   color: #fff;
+ }
+
+.clear{clear: left;}
+#products{
+  width: 1200px;
+  margin: 0 auto;
+}
+#products li{
+  width:260px;
+  float: left;
+  border:solid 1px #E9E9E9;
+  margin-right:10px;
+}
+#products li span{
+  display: block;
+  width: 100%;
+  text-align:center;
+}
+#products li em{
+  font-size:24px;
+  font-family: Arial;
+  color:#E4393C;
+  display: block;
+  margin-left: 20px;
+}
+#products li p{
+  color:#333;
+  margin: 10px 0 0 20px;
+}
+#products li a{
+  display: block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border: solid 1px #DDDDDD;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: none;
+  color:#E4393C;
+}
+#products li a:hover{
+  border: solid 1px #E4393C;
+}
+.shopcart{
+  width:1200px;
+  margin:0 auto;
+}
+.shopcart h1{
+  font-size:18px;
+  color:#E4393C;
+  border-bottom:solid 4px #E9E9E9;
+  padding-bottom: 10px;
+}
+.shopcart .list-head{
+  width: 96%;
+  background: #d9ccb4;
+  height: 40px;
+  line-height: 40px;
+  padding:0 2% 0 2%;
+}
+.shopcart h1{
+  font-weight: bold;
+}
+#h2{
+  width: 17%;
+}
+.shopcart .h3{
+  width: 18%;
+}
+.shopcart .list-head div{
+  float:left;
+}
+.h1,.c1{width: 50%;}
+.h2,.c2{width: 15%;}
+.h3,.c3{width: 20%; }
+.c2{
+  overflow: hidden;
+}
+.c2 span{
+  width: 76px;
+  overflow: hidden;
+  line-height: 21px;
+  float: left;
+}
+.c2 a{
+  display: inline-block;
+  border: 1px solid #ccc;
+  height: 24px;
+  width: 21px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  float: left;
+  line-height: 21px;
+}
+.c2 input{
+  color: #999;
+  height: 24px;
+  border: 1px solid #ccc;
+  width: 30px;
+  line-height: 21px;
+  text-align: center;
+  border-right: 0;
+  border-left: 0;
+  float: left;
+}
+#cart-list .pl{
+  width: 100%;
+  height: 94px;
+  border-bottom:solid 1px #C5C5C5;
+  clear: left;
+}
+#cart-list .pl div{
+  float: left;
+  height: 94px;
+  line-height: 94px;
+  background: #FFF4E8;
+}
+#cart-list div span{
+  display: block;
+  float: left;
+  padding: 5px 0 0 20px;
+}
+#cart-list div p{
+  float: left;
+  padding-left: 20px;
+}
+#cart-list div span img{
+  width:80px;
+}
+.pl a{
+  color:#666;
+  text-decoration: none;
+}
+.pl a:hover{
+  color:#ff0000;
+  text-decoration: underline;
+}
+#cartbox {
+  width: 100%;
+  height: 50px;
+}
+#cartbox a{
+  width: 200px;
+  height: 50px;
+  background: #cccccc;
+  border: 1px solid;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+}
+#cartbox a span{
+  font-size: 30px;
+}
+#cartbox a div{
+  font-size: 20px;
+  border-radius: 100%;
+  background: red;
+  width: 30px;
+  height: 30px;
+  margin: -40px 10px 30px 170px;
+}
+#cart-list #c2 span{
+  padding: 0;
+  margin-top: 35px;
+}
+.allprice{
+  width: 1200px;
+  height: 80px;
+  background: #FFF4E8;
+  border-top: 1px solid #eee2c1;
+}
+.prices{
+  width: 200px;
+  height: 50px;
+  float: right;
+  margin: 10px 130px;
+}
+#yuan{
+  color: #f52648;
+  font-size: 20px;
+}
+#submit{
+  width: 200px;
+  height: 50px;
+  float: right;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 100px;
+  background: url("../../img/xqicon.gif") no-repeat -517px -469px;
+}
+.all2{
+  border: 0;
+}
+
+

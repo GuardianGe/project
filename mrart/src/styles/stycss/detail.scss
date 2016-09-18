@@ -1,0 +1,72 @@
+
+#side{width:40px;height:100%;position:fixed;right:0;top:0;background:#333;vertical-align:middle;}
+#side ul{width:40px;}
+#side ul li{list-style:none;width:40px;height:36px;margin-top:10px;background:#fff;}
+#side a{display:block;width:40px;height:36px;}
+#side .li01{background:url(../../img/sidebarbtn.png) no-repeat 0 0;}
+#side .li02{background:url(../../img/sidebarbtn.png) no-repeat 0 -36px;}
+#side .li03{background:url(../../img/sidebarbtn.png) no-repeat 0 -72px;}
+#side .li04{background:url(../../img/sidebarbtn.png) no-repeat 0 -108px;}
+#side .li05{background:url(../../img/sidebarbtn.png) no-repeat 0 -144px;}
+#side .li06{background:url(../../img/sidebarbtn.png) no-repeat 0 -180px;}
+#detail_main_w{background:#f1ebde;}
+#detail_main{width: 1200px;margin:50px auto;overflow: hidden;margin-bottom:30px;}
+
+/*左部销量排行榜*/
+#detail_l{width:220px;float:left;margin-right:20px;padding:10px 0;background:#faf8f8;margin-top:20px;}
+#detail_l  h3{text-align: center;width:220px;height:54px;line-height: 54px;border-bottom:1px solid #eceae6;}
+#detail_l .l_box{width:200px;text-align: center;padding:0 10px;}
+#detail_l .l_box .d_img{}
+#detail_l .l_box .d_img a{display: block;}
+#detail_l .l_box .d_img a img{display: block;width:120px;height: 120px;}
+#detail_l .l_box p{text-align: center;font-size: 12px;width:200px;}
+#detail_l .l_box .price{overflow:hidden;width:200px}
+#detail_l .l_box strong{display: block;color:#ff1a3a;float:left;}
+#detail_l .l_box del{display: block;color:#999;float:right;}
+
+/*左部销量排行榜 end*/
+
+#detail_r{width:960px;float:left;}
+#detail_r .detail_r_t{width:960px;height:29px;background:#fff;margin: 10px 0;line-height:29px;font-size:12px;color:#333;padding-left:10px;border:1px solid #efefef;}
+#detail_r .detail_r_t span{color:#666;}
+/*按类别分类*/
+#detail_r .detail_r_c{margin-top: 10px;background:#fff}
+.detail_r_c .detail_r_c01{overflow: hidden;background:#f8f8f8;border-radius:5px 5px 0 0;margin-top:10px;padding:7px 20px;background:#333}
+.detail_r_c .detail_r_c01 a{text-decoration: none;font-size:12px}
+.detail_r_c .detail_r_c01 a span{color:#d62528}
+.detail_r_c .detail_r_c01 .left{float:left;color:#fff;}
+.detail_r_c .detail_r_c01 .right{float:right;color:#666;}
+.detail_r_c .detail_r_c02{background:#f3f3f3;color:#666;padding:7px 30px;font-size:12px;}
+.detail_r_c .detail_r_c03{overflow:hidden;margin:10px 20px;border-bottom:1px solid #eceae6;}
+.detail_r_c .detail_r_c03 h4{float:left;width:104px;}
+.detail_r_c .detail_r_c03 .pai{float:left;width:720px;}
+.detail_r_c .detail_r_c03 .pai a{display:block;float:left;width:144px;text-decoration: none;color:#333;font-size:12px;margin-bottom:15px;}
+.detail_r_c .detail_r_c03 .more{float:right;color:#666;font-size:12px;}
+
+
+
+#detail_r .detail_r_m{overflow: hidden;background:#f8f8f8;border-radius:5px 5px 0 0;margin-top:10px;padding:7px 10px;background:#333;}
+#detail_r .detail_r_m .left{float: left;color:#ccc;}
+#detail_r .detail_r_m .left a{display: inline-block;color:#ccc;margin-left: 40px;text-decoration: none;}
+#detail_r .detail_r_m .right{float: right;overflow:hidden;}
+
+#detail_r .detail_r_m .right a{float: left;display: inline-block;padding:0 10px;border:1px solid #ccc;background: #f6f6f6;margin-left: 5px;}
+#detail_r .detail_r_m .right .span{border:0;background:0;color:#ccc}
+#detail_r .detail_r_m .right #red{color:#d62528;}
+/*商品列表*/
+#detail_r .detail_r_list{overflow: hidden;width:960px;background:#fff;}
+#detail_r .detail_r_list .detail_r_box{width: 206px;padding: 15px;float: left;height:322px;}
+.detail_r_box:hover{border:1px solid #d7c188;}
+.detail_r_box{border:1px solid #fff;margin-right: 20px}
+.detail_r_box .detail_r_img{width:200px;height: 200px;}
+.detail_r_box .detail_r_img a{display: block;}
+.detail_r_box .detail_r_img a img{display: block;}
+.detail_r_box p{width:200px;height:48px ;font-size: 12px;}
+
+.detail_r_box .detail_r_adds{overflow: hidden;}
+.detail_r_adds strong{display: block;color: #ff1a3a;float:left;}
+.detail_r_adds del{font-size: 12px;font-weight: 100;color:#999;float: left;margin: 5px 0 0 5px}
+.detail_r_box .detail_r_adds .add{width:77px;height:25px;float: left;margin-left: 10px;background: #fc1c5a;color: #fff;border-radius:10%;text-align:center;line-height:25px;cursor: pointer}
+.detail_r_box .ping{text-align:right;color:#ccc;}
+/*详情页 右部内容  end*/
+

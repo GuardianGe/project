@@ -1,0 +1,69 @@
+@charset "utf-8";
+body,p,ul,dl,dt,dd,ol,li,h1,h3,h4,h2,h5,input,h6,fieldset,legend{margin:0;padding:0;}
+body{font:12px/24px "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#666;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+html,body{width: 100%; height: 100%;}
+
+.tbox{
+    width: 573px;
+    height: 266px;
+    background: deepskyblue;
+}
+#goods,.gtop{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.gtop th{
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #000;
+}
+#goods td{
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #000;
+}
+#goods .cn,.gtop .cn{
+    width: 80px;
+}
+.tbox02{
+    width: 1022px;
+    height: 539px;
+    background: deepskyblue;
+}
+#goods02,.gtop02{
+    background: deepskyblue;
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+}
+#goods02 tr td{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #000;
+}
+#goods02 .cz,.gtop02 .cn{
+    width: 50px;
+}
+#btn01,#btn02{
+    width: 50px;
+    height: 30px;
+    background: deepskyblue;
+}
+#btn01{
+    margin-left: 300px;
+}
+.gtop02 th{
+    width: 180px;
+    border: 1px solid #000;
+}
+#div1{
+    margin-left: 20px;
+}

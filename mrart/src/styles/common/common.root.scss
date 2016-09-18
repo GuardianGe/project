@@ -1,0 +1,29 @@
+.root{
+  height: 221px;
+  background: #fff;
+  text-align: center;
+  line-height: 1.8;
+  padding: 15px 0 20px;
+  clear: both;
+}
+.r01{
+  width: 200px;
+  height: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.r01 img{
+  float: left;
+}
+.r01 span{
+  float: right;
+}
+.r02{
+  font-size: 11px;
+  color: #333;
+  margin-top: 40px;
+}
+.r02 img{
+  margin-bottom: -7px;
+  display: inline-block;
+}

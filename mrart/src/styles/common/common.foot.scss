@@ -1,0 +1,89 @@
+.footer{
+  background: #fff;
+  clear: both;
+}
+.footerbox{
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-service{
+  width: 1200px;
+  height: 110px;
+  font-family:Simsun;
+  margin: 0 auto;
+  border-bottom: 1px dotted #c1c1c1;
+}
+.footer-service ul li{
+  float: left;
+  margin:30px 30px 30px 140px;
+}
+.footer-service ul li a{
+  float: left;
+
+}
+.footer-service img{
+  float: left;
+}
+.f1{
+  color: #888;
+  float: right;
+}
+.f1 h3{
+  font:bold 20px/24px "Microsoft Yahei";
+  color: #ff809f;
+}
+.f1 p{
+  font:bold 14px/24px "Microsoft Yahei";
+}
+.footer-link{
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  border-bottom: 1px dotted #c1c1c1;
+}
+.fleft{
+  float: left;
+  width: 215px;
+  padding: 40px 20px 0 35px;
+}
+.fleft h3{
+  color: #ff809f;
+  font: 24px/1.5 Georgia;
+}
+.fleft p{
+  font:12px/1.5 Tahoma;
+}
+.fcenter{
+  float: left;
+}
+.fcenter01{
+  float: left;
+  padding: 20px 25px 0 0;
+}
+.fcenter01 h3{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 80px;
+  font-family: Simsun;
+}
+.fcenter01 li{
+  line-height: 22px;
+}
+.fright{
+  margin-left: 81px;
+  float: left;
+}
+.fwei{
+  padding: 20px 52px 0 0;
+  float: left;
+}
+.fwei h2{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 80px;
+  font-family: Simsun;
+}
+.fwei img{
+  border: 1px solid #ccc;
+  padding: 4px;
+}

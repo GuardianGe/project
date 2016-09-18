@@ -1,0 +1,449 @@
+
+/********************** banner ************************************/
+.banner{
+  width: 1280px;
+  height: 385px;
+  margin: 0 auto;
+  position: relative;
+}
+#turelist{
+  overflow: hidden;
+  height: 385px;
+  width:1280px;
+  position: absolute;
+}
+#imgul{
+  width: 5120px;
+  height: 385px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#imgul li{
+  float: left;
+}
+#imgul img{
+  width: 1280px;
+  height: 385px;
+}
+#navul{
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 350px;
+  left: 590px;
+}
+#navul li{
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  border-radius: 30px;
+  border: 1px solid #bebebe;
+  margin-left: 5px;
+  float: left;
+  text-align: center;
+}
+#navul li a{
+  float: left;
+  color: #e3cfdc;
+  text-indent: -9999px;
+}
+.lion{
+  background: #f52648 ;
+}
+.liun{
+  background: #e3cfdc;
+}
+#zuo{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 500px;
+  top:0;
+  background: red;
+}
+
+
+.list-box{
+  width: 220px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top:40px;
+  z-index: 200;
+}
+.list li{
+  padding: 6px 7px 0 14px;
+  float: left;
+  line-height: 22px;
+  width: 199px;
+  position: relative;
+}
+.list li:hover{
+  background: #fafafa;
+}
+.cat h3 i{
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+  padding-right: 9px;
+  position: relative;
+  top: 4px;
+  background: url("../../img/icon-base2.gif") no-repeat;
+}
+.cat .cat01 i{
+  background-position:-537px -349px;
+}
+.cat .cat02 i{
+  background-position:-537px -385px;
+}
+.cat .cat03 i{
+  background-position:-537px -419px;
+}
+.cat .cat04 i{
+  background-position:-537px -456px;
+}
+.cat .cat05 i{
+  background-position:-537px -525px;
+}
+.cat .cat06 i{
+  background-position:-537px -490px;
+}
+.catlist{
+  line-height: 20px;
+  overflow: hidden;
+  height: 60px;
+  padding: 0 24px 10px;
+  background: url("../../img/icon0.png") repeat-x 0 bottom;
+}
+.catlist a {
+  display: inline-block;
+  padding-right: 6px;
+  color: #666;
+  white-space: nowrap;
+}
+.catlist a:hover{
+  color: red;
+}
+.catchild{
+  width: 693px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  left: 215px;
+  background: #fafafa;
+  display: none;
+}
+.catchild .catchildren a{
+  float: left;
+  width: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 10px 8px 11px 20px;
+  background:url("../../img/icon0.png") repeat-x 0 bottom;
+}
+.pabout{
+  float: left;
+  margin: 10px 8px 11px 20px;
+}
+.pabout p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.pabout a{
+  width: 85px;
+  margin-top: 10px;
+  padding-right: 5px;
+  float: left;
+  height: 15px;
+  line-height: 15px;
+}
+.pabout a:hover{
+  color: red;
+}
+
+
+.more-brand{
+  width: 240px;
+  position: absolute;
+  left: 980px;
+  top: 0;
+  z-index: 111;
+}
+#hd{
+  width: 240px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  font: bold 14px/40px simsun;
+  letter-spacing: 1px;
+  text-indent: 83px;
+  background: #f52648;
+  position: relative;
+}
+#hd:hover{
+  background: #df1738;
+}
+#hd span{
+  width: 18px;
+  height: 17px;
+  background: url("../../img/icon-base2.gif") -479px -373px;
+  position: absolute;
+  left: 57px;
+  top: 12px;
+}
+#hdchild{
+  width: 240px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 555;
+  display: none;
+}
+#hdchild img{
+  width: 120px;
+  height: 100px;
+  float: left;
+}
+#imgul01{
+  width: 240px;
+  height: 330px;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+#imgul01 img{
+  width: 240px;
+  height: 110px;
+}
+#imgul02{
+  width: 240px;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/********************** brand ************************/
+.brand{
+  width: 960px;
+  height: 274px;
+  margin: 0 auto;
+  background: #fff;
+  padding-left: 240px;
+  position: relative;
+}
+.brandul{
+  width: 960px;
+  height: 48px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #c1c1c1;
+}
+#brandul li{
+  float: left;
+  width: 140px;
+  height: 48px;
+  font:bold 14px/48px simsun;
+  text-align: center;
+  cursor: pointer;
+}
+#brandul li:hover{
+  color: #f52648;
+  border-bottom: 2px solid #f52648;
+}
+.brand a{
+  color: #666;
+  position: absolute;
+  right: 10px;
+  top: 14px;
+}
+.brandimg{
+  width: 960px;
+  height: 224px;
+  float: right;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+}
+.bpage{
+  width: 960px;
+  height: 224px;
+  padding-left: 14px;
+  position: absolute;
+}
+.bpage01{
+  z-index:10;
+}
+.bpage ul{
+  margin-left: 12px;
+}
+.bpage li{
+  float: left;
+}
+.bpage li a{
+  float: left;
+  height: 97px;
+  overflow: hidden;
+  position: relative;
+  width: 225px;
+  margin: 10px 12px 0 0;
+}
+.bpage li img{
+  width: 225px;
+  height: 194px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/******************section**************************/
+.section{
+  width: 1200px;
+  margin: 0 auto;
+}
+.stitle{
+  width: 1200px;
+  height: 32px;
+  overflow: hidden;
+  padding: 28px 0 10px;
+  background: #f2f2f2;
+}
+.sec-main{
+  width: 1170px;
+  height: 615px;
+  padding: 15px;
+  clear: both;
+  background: #fff;
+}
+.sec-center{
+  border-right: 1px solid #f2f2f2;
+  float: left;
+  width: 919px;
+  overflow: hidden;
+}
+.sec-center li{
+  float: left;
+  margin-bottom: 15px;
+}
+.sec-right{
+  width: 235px;
+  float: right;
+}
+.sec-right h3{
+  width: 110px;
+  height: 15px;
+  padding: 3px 0;
+  font:16px "Microsoft Yahei";
+  margin: 0 auto -1px;
+  color: #ef2e49;
+  border-bottom: 1px solid #ef2e49;
+  text-indent: 30px;
+  background: url("../../img/TOP.gif") no-repeat left;
+}
+.topbody{
+  border-top: 1px solid #c1c1c1;
+}
+.topli1,.topli2,.topli3,.topli4,.topli5{
+  width: 235px;
+  border-bottom: 1px dotted #c1c1c1;
+}
+.h1{
+  display: block;
+  width: 40px;
+  height: 45px;
+  line-height: 45px;
+  font-family: Arial;
+  font-weight: bold;
+  float: left;
+}
+.hcolor{
+  color: #ff809f;
+}
+.gname1:after,.gname2:after,.gname3:after,.gname4:after,.gname5:after{
+  content: ".";
+  clear:both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.gname1 h6,.gname2 h6,.gname3 h6,.gname4 h6,.gname5 h6{
+  width: 195px;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+}
+.gbody1,.gbody2,.gbody3,.gbody4,.gbody5{
+  width: 235px;
+  height: 146px;
+  padding: 9px 0;
+  display: none;
+}
+.gbody-left{
+  width: 80px;
+  height: 114px;
+  margin-right: 8px;
+  float: left;
+}
+.h2{
+  color: #ff809f;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px 0 8px;
+  width: auto;
+  height: 20px;
+  float: left;
+}
+.topList li:first-child .gname1,.topList li:first-child .gname2,
+.topList li:first-child .gname3,.topList li:first-child .gname4,
+.topList li:first-child .gname5{
+  display: none;
+}
+.topList li:first-child .gbody1,.topList li:first-child .gbody2,
+.topList li:first-child .gbody3,.topList li:first-child .gbody4,
+.topList li:first-child .gbody5{
+  display: block;
+}
+.gbody-left img{
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+.gbody-right{
+  width: 130px;
+  float: right;
+  color: #999;
+  line-height: 18px;
+}
+.gbody-right li{
+  float: left;
+}
+.gbody-right h6{
+  height: 36px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+.gbody-right h6 a{
+  color: #333;
+  font:12px/20px Simsun;
+  width: 120px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+}
+.price1{
+  font:18px/20px Arial;
+  color: #f52648;
+  margin-right: 10px;
+}
+.gbody-right del{
+  padding-top: 10px;
+}
+
+

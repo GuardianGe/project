@@ -1,0 +1,51 @@
+<div class="section">
+    <div class="sec">
+        <div class="secbox">
+            <div class="signin">
+                <div class="signintop">
+                    <h2>用户登录</h2>
+                </div>
+                <div class="signinmain">
+                    <ul>
+                        <li>
+                            <label for>登录账号：</label>
+                            <span><input type="text" placeholder="用户名/邮箱地址/手机号" id="myUser"></span>
+                            <span id="yz"></span>
+                        </li>
+                        <li>
+                            <label for>密码：</label>
+                            <span><input type="password" placeholder="填写密码" id="myPassword"></span>
+                            <span id="mm"></span>
+                        </li>
+                        <li>
+                            <label for id="aa">验证码：</label>
+                            <input id="putin" type="text" placeholder="填写验证码" class="gradient"/>
+                            <span id="code" class="mycode"></span>
+                            <span id="zz"></span>
+                        </li>
+                        <li>
+                            <label for></label>
+                            <span class="remb">
+                                <input type="checkbox" checked>
+                                <span>记住账号</span>
+                                <input type="checkbox">
+                                <span>两周内自动登录</span>
+                            </span>
+                        </li>
+                        <li class="sbtn">
+                            <label for></label>
+                            <input type="button" value="登录" id="submit"/>
+                            <a href="#" class="forget">忘记密码？</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <iframe src="http://www.ecopen.cn/connect/login?appid=1076333735&domain=www.mrart.com.cn&widget=5&v=1.0" frameborder="0" allowtransparency="true" scrolling="no" width="292" height="110"></iframe>
+                </div>
+                <div class="logup">
+                    <a href="sign-up.html" class="forget logupa">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

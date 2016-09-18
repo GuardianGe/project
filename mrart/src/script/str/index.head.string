@@ -1,0 +1,335 @@
+<div class="head">
+    <div class="head-info">
+        <div class="head-info-box">
+            <div class="head-left">
+                <span>欢迎来艺先生，请</span>
+                <a href="sign-in.html">登录</a>
+                <a href="sign-up.html">免费注册</a>
+            </div>
+            <div class="head-right">
+                <ul id="hnav">
+                    <li class="hmar">
+                        <div class="navm">
+                            我的订单<i></i></div>
+                        <div class="navList">
+                            <a href="#" target="_blank" title="我的蜂巢">我的蜂巢</a>
+                            <a href="#" target="_blank" title="我的优惠劵">我的优惠劵</a>
+                            <a href="#" target="_blank" title="我的花粉">我的花粉</a>
+                            <a href="#" target="_blank" title="我的收藏">我的收藏</a>
+                            <a href="#" target="_blank" title="我的评价">我的评价</a>
+                            <a href="#" target="_blank" title="0元抽奖">0元抽奖</a>
+                        </div>
+                    </li>
+                    <li><span></span><div class="navList"></div></li>
+                    <li><span></span><div class="navList"></div></li>
+                    <li>
+                        <div class="navm">快速导航<i></i></div>
+                        <div class="navList nl">
+                            <a href="#" target="_blank" title="帮助中心">帮助中心</a>
+                            <a href="#" target="_blank" title="艺先生校园">艺先生校园</a>
+                            <a href="#" target="_blank" title="推荐好友">推荐好友</a>
+                            <a href="#" target="_blank" title="猜你喜欢">猜你喜欢</a>
+                            <a href="#" target="_blank" title="合作专区">合作专区</a>
+                        </div>
+                    </li>
+                    <li class="nobg"><a href="#">收藏艺先生</a><div class="navList"></div></li>
+                    <li class="li-phone">
+                        <a href="#" class="fcolor"><span></span>手机艺先生</a>
+                        <div class="navList l">
+                            <a href="#"><img src="img/ma.jpg" alt="" width="112" height="112"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="head-main">
+            <div class="head-main-box">
+                <div class="searchl">
+                    <h1><a href="#"><img src="img/logo.jpg" alt=""></a></h1>
+                </div>
+                <div class="searchc">
+                    <form action="" method="post" class="searchc-box">
+                        <input type="text" placeholder="搜索关键词" class="seatxt">
+                        <button class="seabtn">搜&nbsp索</button>
+                    </form>
+                    <div class="hots">
+                        <span>热门：</span>
+                        <a href="#">素描纸</a>
+                        <a href="#">水粉</a>
+                        <a href="#">画笔</a>
+                        <a href="#">马克笔</a>
+                        <a href="#">铅笔</a>
+                    </div>
+                </div>
+                <div class="searchr">
+                    <a href="goodscar.html"> <span></span>我的购物车<div>0</div></a>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="navbox">
+                    <ul class="navt">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">品牌区 </a></li>
+                        <li><a href="#">会员中心</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">限时优惠</a></li>
+                    </ul>
+                    <div class="list-box">
+                        <ul class="list">
+                            <li>
+                                <div class="cat">
+                                    <h3 class="cat01"><a href="#"><i></i>颜料</a></h3>
+                                    <div class="catlist">
+                                        <a href="#">水粉颜料</a>
+                                        <a href="#">果冻颜料</a>
+                                        <a href="#">丙烯颜料</a>
+                                        <a href="#">水彩颜料</a>
+                                        <a href="#">油画颜料</a>
+                                        <a href="#">国画颜料</a>
+                                    </div>
+                                </div>
+                                <div class="catchild">
+                                    <div class="catchildren">
+                                        <a href="#">水粉颜料</a>
+                                        <a href="#">果冻颜料</a>
+                                        <a href="#">丙烯颜料</a>
+                                        <a href="#">水彩颜料</a>
+                                        <a href="#">油画颜料</a>
+                                        <a href="#">国画颜料</a>
+                                        <a href="#">涂鸦墨水</a>
+                                    </div>
+                                    <div class="pabout">
+                                        <p>相关品牌：</p>
+                                        <a href="#">Sakura/樱花</a>
+                                        <a href="#">Canson/康松</a>
+                                        <a href="#">晨光</a>
+                                        <a href="#">一得阁</a>
+                                        <a href="#">STAEDTLER/施</a>
+                                        <a href="#">莫奈</a>
+                                        <a href="#">FABER-</a>
+                                        <a href="#">Kulox/高尔乐</a>
+                                        <a href="#">老人头</a>
+                                        <a href="#">WINSOR&</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cat">
+                                    <h3 class="cat02"><a href="#"><i></i>画笔</a></h3>
+                                    <div class="catlist">
+                                        <a href="#">铅笔/炭笔/木炭条</a>
+                                        <a href="#">自动铅笔</a>
+                                        <a href="#">水粉笔</a>
+                                        <a href="#">水彩笔/勾线笔</a>
+                                        <a href="#">笔刷</a>
+                                    </div>
+                                </div>
+                                <div class="catchild">
+                                    <div class="catchildren">
+                                        <a href="#">铅笔/炭笔/木炭条</a>
+                                        <a href="#">自动铅笔</a>
+                                        <a href="#">水粉笔</a>
+                                        <a href="#">水彩笔/勾线笔</a>
+                                        <a href="#">笔刷</a>
+                                        <a href="#">油画笔</a>
+                                        <a href="#">秀丽笔/针管笔/签字笔</a>
+                                        <a href="#">马克笔/水性笔/油性笔</a>
+                                        <a href="#">色粉笔/彩铅</a>
+                                        <a href="#">羊毫/狼毫/石獾笔</a>
+                                    </div>
+                                    <div class="pabout">
+                                        <p>相关品牌：</p>
+                                        <a href="#">Sakura/樱花</a>
+                                        <a href="#">Canson/康松</a>
+                                        <a href="#">晨光</a>
+                                        <a href="#">一得阁</a>
+                                        <a href="#">STAEDTLER/施</a>
+                                        <a href="#">莫奈</a>
+                                        <a href="#">FABER-</a>
+                                        <a href="#">Kulox/高尔乐</a>
+                                        <a href="#">老人头</a>
+                                        <a href="#">WINSOR&</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cat">
+                                    <h3 class="cat03"><a href="#"><i></i>纸类</a></h3>
+                                    <div class="catlist">
+                                        <a href="#">素描纸/本</a>
+                                        <a href="#">速写纸/本</a>
+                                        <a href="#">水粉纸/本</a>
+                                        <a href="#">水彩纸/本</a>
+                                        <a href="#">油画纸/本</a>
+                                    </div>
+                                </div>
+                                <div class="catchild">
+                                    <div class="catchildren">
+                                        <a href="#">素描纸/本</a>
+                                        <a href="#">速写纸/本</a>
+                                        <a href="#">水粉纸/本</a>
+                                        <a href="#">水彩纸/本</a>
+                                        <a href="#">油画纸/本</a>
+                                        <a href="#">网点纸/原稿纸/拷贝纸</a>
+                                        <a href="#">马克笔专用本</a>
+                                        <a href="#">手账本/笔记本</a>
+                                        <a href="#">水溶铅本/色粉纸</a>
+                                        <a href="#">熟渲/生宣/毛边纸</a>
+                                    </div>
+                                    <div class="pabout">
+                                        <p>相关品牌：</p>
+                                        <a href="#">Sakura/樱花</a>
+                                        <a href="#">Canson/康松</a>
+                                        <a href="#">晨光</a>
+                                        <a href="#">一得阁</a>
+                                        <a href="#">STAEDTLER/施</a>
+                                        <a href="#">莫奈</a>
+                                        <a href="#">FABER-</a>
+                                        <a href="#">Kulox/高尔乐</a>
+                                        <a href="#">老人头</a>
+                                        <a href="#">WINSOR&</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cat">
+                                    <h3 class="cat04"><a href="#"><i></i>工具</a></h3>
+                                    <div class="catlist">
+                                        <a href="#">剪刀/笔袋</a>
+                                        <a href="#">水桶/喷壶/油壶/洗笔筒</a>
+                                        <a href="#">胶带/夹子/图钉</a>
+                                    </div>
+                                </div>
+                                <div class="catchild">
+                                    <div class="catchildren">
+                                        <a href="#">笔盒/笔袋</a>
+                                        <a href="#">水桶/喷壶/油壶/洗笔筒</a>
+                                        <a href="#">胶带/夹子/图钉</a>
+                                        <a href="#">速写板/画板</a>
+                                        <a href="#">美工刀/油画刀</a>
+                                        <a href="#">媒介剂</a>
+                                        <a href="#">调色板/盘/颜料盒</a>
+                                        <a href="#">橡皮擦/纸擦笔/延伸器</a>
+                                        <a href="#">画筒/画袋/折叠凳/画架/工具箱</a>
+                                        <a href="#">木头人/手/教学工具</a>
+                                    </div>
+                                    <div class="pabout">
+                                        <p>相关品牌：</p>
+                                        <a href="#">Sakura/樱花</a>
+                                        <a href="#">Canson/康松</a>
+                                        <a href="#">晨光</a>
+                                        <a href="#">一得阁</a>
+                                        <a href="#">STAEDTLER/施</a>
+                                        <a href="#">莫奈</a>
+                                        <a href="#">FABER-</a>
+                                        <a href="#">Kulox/高尔乐</a>
+                                        <a href="#">老人头</a>
+                                        <a href="#">WINSOR&</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cat">
+                                    <h3 class="cat05"><a href="#"><i></i>手工</a></h3>
+                                    <div class="catlist">
+                                        <a href="#">剪刀/手工纸</a>
+                                        <a href="#">卡纸/扳纸</a>
+                                        <a href="#">橡皮泥/陶泥/粘土</a>
+                                        <a href="#">模具/泥塑工具</a>
+                                        <a href="#">拼图</a>
+                                    </div>
+                                </div>
+                                <div class="catchild">
+                                    <div class="catchildren">
+                                        <a href="#">剪刀/手工纸</a>
+                                        <a href="#">卡纸/扳纸</a>
+                                        <a href="#">橡皮泥/陶泥/粘土</a>
+                                        <a href="#">模具/泥塑工具</a>
+                                        <a href="#">拼图</a>
+                                        <a href="#">手账贴纸</a>
+                                        <a href="#">胶水/固体胶/双面胶</a>
+                                        <a href="#">尺子/文件袋/文具盒/圆规</a>
+                                    </div>
+                                    <div class="pabout">
+                                        <p>相关品牌：</p>
+                                        <a href="#">Sakura/樱花</a>
+                                        <a href="#">Canson/康松</a>
+                                        <a href="#">晨光</a>
+                                        <a href="#">一得阁</a>
+                                        <a href="#">STAEDTLER/施</a>
+                                        <a href="#">莫奈</a>
+                                        <a href="#">FABER-</a>
+                                        <a href="#">Kulox/高尔乐</a>
+                                        <a href="#">老人头</a>
+                                        <a href="#">WINSOR&</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cat">
+                                    <h3 class="cat06"><a href="#"><i></i>工艺</a></h3>
+                                    <div class="catlist">
+                                        <a href="#">砚台/墨池</a>
+                                        <a href="#">明矾/胶</a>
+                                        <a href="#">印床/刻床/刻刀</a>
+                                        <a href="#">印石/印泥/印泥盒</a>
+                                    </div>
+                                </div>
+                                <div class="catchild">
+                                    <div class="catchildren">
+                                        <a href="#">砚台/墨池</a>
+                                        <a href="#">明矾/胶</a>
+                                        <a href="#">印床/刻床/刻刀</a>
+                                        <a href="#">印石/印泥/印泥盒</a>
+                                        <a href="#">毛毡/镇纸</a>
+                                        <a href="#">笔洗/碟子/调色盘</a>
+                                    </div>
+                                    <div class="pabout">
+                                        <p>相关品牌：</p>
+                                        <a href="#">Sakura/樱花</a>
+                                        <a href="#">Canson/康松</a>
+                                        <a href="#">晨光</a>
+                                        <a href="#">一得阁</a>
+                                        <a href="#">STAEDTLER/施</a>
+                                        <a href="#">莫奈</a>
+                                        <a href="#">FABER-</a>
+                                        <a href="#">Kulox/高尔乐</a>
+                                        <a href="#">老人头</a>
+                                        <a href="#">WINSOR&</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="more-brand">
+                        <div id="hd">
+                            <span></span>更多品牌活动<br/>
+                            <div id="hdchild">
+                                <a href="#"><img src="img/h02.png" alt=""></a>
+                                <a href="#"><img src="img/h01.png" alt=""></a>
+                                <a href="#"><img src="img/h03.png" alt=""></a>
+                                <a href="#"><img src="img/h02.png" alt=""></a>
+                                <a href="#"><img src="img/h02.png" alt=""></a>
+                                <a href="#"><img src="img/h01.png" alt=""></a>
+                                <a href="#"><img src="img/h03.png" alt=""></a>
+                                <a href="#"><img src="img/h01.png" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div id="imgul01">
+                            <ul id="imgul02">
+                                <li><a href="#"><img src="img/ban01.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/ban02.jpg" alt=""></a></li>
+                                <li><a href="#"><img src=" img/ban03.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/ban01.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="img/ban02.jpg" alt=""></a></li>
+                                <li><a href="#"><img src=" img/ban03.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

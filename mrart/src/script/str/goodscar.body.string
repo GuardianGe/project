@@ -1,0 +1,32 @@
+<div class="wrap">
+    <div class="wrapt">
+        <h1><i></i>购物车</h1>
+    </div>
+    <div class="steps">
+        <table>
+            <tr class="stepsy">
+                <td class="stepsy"><i>1</i><b>购物车</b></td>
+                <td class="stepsy ste"><i>2</i><b>填写和提交信息</b></td>
+                <td class="stepsy ste"><i>3</i><b>成功提交订单</b></td>
+            </tr>
+        </table>
+    </div>
+    <div class="shopcart">
+        <h1>全部商品</h1>
+        <div class="list-head">
+            <div class="h1">商品名称</div>
+            <div class="h2" id="h2">价格</div>
+            <div class="h2">数量</div>
+            <div class="h3">操作</div>
+        </div>
+        <div id="cart-list">
+
+        </div>
+        <div class="allprice">
+            <div class="prices">总金额：<span id="yuan"></span></div>
+        </div>
+        <div class="allprice all2">
+            <button id="submit">提交订单</button>
+        </div>
+    </div>
+</div>

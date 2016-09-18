@@ -1,0 +1,366 @@
+<div class="bgcolor">
+    <div class="wrap">
+        <div class="navs">
+            <span><a href="#">首页</a></span><span>/</span>
+            <span><a href="#">画笔</a></span><span>/</span>
+            <span><a href="#">马克笔</a></span><span>/</span>
+            <span><a href="#">水性笔</a></span><span>/</span>
+            <span><a href="#">油性笔</a></span><span>/</span>
+            <span><a href="#">韩国新韩shinhan 白杆软头Touch马克笔 全新五代漫画专用 单只</a></span>
+        </div>
+        <div class="clearfix">
+            <div class="secl">
+                <div class="seclbox">
+                    <div class="one">
+                        <img src="img/gs01.jpg" />
+                        <span id="sp"></span>
+                    </div>
+                    <div class="two">
+                        <img id="pimg" class="active" src="img/gs01.jpg" width="40" height="40" />
+                        <img src="img/gs02.jpg" width="40" height="40" />
+                        <img src="img/gs03.jpg" width="40" height="40" />
+                    </div>
+                </div>
+                <div class="thebox">
+                    <div class="the">
+                        <img src="img/gs01.jpg" width="600" height="600" />
+                    </div>
+                </div>
+                <div class="secr">
+                    <div class="sectitle">
+                        <h2 id="pname" code="8001">韩国新韩shinhan 白杆软头Touch马克笔 全新五代漫画专用 单支  </h2>
+                    </div>
+                    <ul class="secinfo">
+                        <li id="price">
+                            <span>销售价：</span>
+                            <b id="pprice">18.00</b>
+                        </li>
+                        <li>
+                            <span>市场价：</span>
+                            <del>18.00</del>
+                        </li>
+                        <li>
+                            <span>会员价</span>
+                            <b>16.00</b>
+                        </li>
+                        <li>
+                            <span>商品评价</span>
+                            <span><i>☆</i><i>☆</i><i>☆</i><i>☆</i><i>☆</i></span>
+                            <span>(共0人评价)</span>
+                        </li>
+                    </ul>
+                    <div class="goodsnum">
+                        <span>货品编号：<b>P56FCFF408C6B6</b></span>
+                        <ul class="gnum">
+                            <li class="gs">
+                                <label>数量：</label>
+                            <span>
+                                <a href="#" id="jian">-</a>
+                                <input type="text" value="1" min="1" max="100000" id="pnum">
+                                <a href="#" id="jia">+</a>
+                            </span> 支
+                            </li>
+                            <li>
+                                <a href="#" id="gou">加入购物车</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------- main----------------------------------------->
+        <div class="main">
+            <div class="maintop">
+                <h2><a href="#">商品详情</a></h2>
+                <h2><a href="#">商品评论</a></h2>
+                <h2><a href="#">商品咨询</a></h2>
+            </div>
+            <div class="mainc">
+                <div class="mainct">
+                    <ul>
+                        <li>品牌：韩国TOUCH</li>
+                        <li>所属分类：马克笔/水性笔/油性笔</li>
+                        <li>商品编号：G56FCFF408BEF1</li>
+                    </ul>
+                </div>
+                <div class="maincc">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/08/42/23/490fe76d49e89cc4e4df34ebc69b99c9.jpg?1461121584#h">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/08/7d/51/804fefb6192a44cb3b790bcc07c76e9f.jpg?1461121597#h" alt="">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/19/8c/1f/7df630278618b28fb2f15de22695e4ea.jpg?1461121605#h" alt="">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/e3/e0/50/1f4194ee772e6339457e08e646b7a92f.jpg?1461121616#h" alt="">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/e7/5c/ef/b713e8787e1cf6df0d3ed447fe7af4cc.jpg?1461121623#h" alt="">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/60/7a/03/192bce16432460fee6e84a7216301c16.jpg?1461121630#h" alt="">
+                    <img src="http://mrart-images.s3.mall.ekaidian.com/1e/a8/3d/1cd75e91aef8232e927e10663928e56a.jpg?1461121638#w" alt="">
+                </div>
+                <div class="maincb">
+                    <div class="mbt"></div>
+                    <div class="mbtbox">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <span>商品评分</span>
+                                        <span>
+                                            <em>
+                                                <span><i>☆</i><i>☆</i><i>☆</i><i>☆</i><i>☆</i></span>
+                                                <b>0</b><br>
+                                                <span>
+                                                    <b>0</b>人评分
+                                                </span>
+                                            </em>
+                                        </span>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <span>综合评分</span>
+                                        <span>
+                                            <em>
+                                                <span><i>☆</i><i>☆</i><i>☆</i><i>☆</i><i>☆</i></span>
+                                                <b>0</b>
+                                            </em>
+                                        </span>
+                                        </li>
+                                        <li>
+                                            <span>尺码</span>
+                                        <span>
+                                            <em>
+                                                <span><i>☆</i><i>☆</i><i>☆</i><i>☆</i><i>☆</i></span>
+                                                <b>0</b>
+                                            </em>
+                                        </span>
+                                        </li>
+                                        <li>
+                                            <span>外观</span>
+                                        <span>
+                                            <em>
+                                                <span><i>☆</i><i>☆</i><i>☆</i><i>☆</i><i>☆</i></span>
+                                                <b>0</b>
+                                            </em>
+                                        </span>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="mcol">共<i>0</i>个评论。如果你对本商品有什么评论或经验，欢迎分享！</div>
+                    </div>
+                </div>
+                <div class="maincb">
+                    <div class="mbt mbt2"></div>
+                    <div class="mbtbox">
+                        <span class="zx">
+                        <a href="#">我要咨询</a>
+                    </span>
+                        <div class="mcol">如果你对本商品有什么问题，请提问咨询！</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="brandtop">
+                <h3>周购买人气产品</h3>
+            </div>
+            <div class="brandbody">
+                <ul>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="brandtop">
+                <h3>热销推荐</h3>
+            </div>
+            <div class="brandbody">
+                <ul>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="brandtop">
+                <h3>最近浏览过的商品</h3>
+            </div>
+            <div class="brandbody">
+                <ul>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btop">
+                        <a href="#"><img src="http://mrart-images.s3.mall.ekaidian.com/d2/04/2e/5442d586f036181763f62c93111590d4.jpg?1462786505#h" alt=""></a>
+                        <ul class="p">
+                            <li><h6><a href="#">青竹浓缩水粉颜料广告画颜料 水粉颜料100ml</a></h6></li>
+                            <li>
+                                <span class="pricel">￥2.50</span>
+                            </li>
+                            <li>
+                                <del>￥3.00</del>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

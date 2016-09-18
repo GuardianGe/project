@@ -1,0 +1,34 @@
+<div class="head">
+    <div class="head-info" id="head-info">
+        <div class="head-info-box">
+            <div class="head-right">
+                <ul id="hnav">
+                    <li class="nobg nobor">
+                        <a href="index.html">艺先生首页</a>
+                        <div class="navList"></div>
+                    </li>
+                    <li class="nowidth"><span></span><div class="navList"></div></li>
+                    <li class="nowidth"><span></span><div class="navList"></div></li>
+                    <li class="po">
+                        <div class="navm">快速导航<i></i></div>
+                        <div class="navList nl">
+                            <a href="#" target="_blank" title="帮助中心">帮助中心</a>
+                            <a href="#" target="_blank" title="艺先生校园">艺先生校园</a>
+                            <a href="#" target="_blank" title="推荐好友">推荐好友</a>
+                            <a href="#" target="_blank" title="猜你喜欢">猜你喜欢</a>
+                            <a href="#" target="_blank" title="合作专区">合作专区</a>
+                        </div>
+                    </li>
+                    <li class="nobg"><a href="#">收藏艺先生</a><div class="navList"></div></li>
+                    <li class="li-phone">
+                        <b></b>
+                        <a href="#" class="fcolor"><span></span>手机艺先生</a>
+                        <div class="navList l">
+                            <a href="#"><img src="img/ma.jpg" alt="" width="112" height="112"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

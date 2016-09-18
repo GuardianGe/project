@@ -1,0 +1,135 @@
+@charset "utf-8";
+body,p,ul,dl,dt,dd,ol,li,h1,h3,h4,h2,h5,input,h6,fieldset,legend{margin:0;padding:0;}
+body{font:12px/24px "微软雅黑";}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#666;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+html,body{width: 100%;height: 100%}
+
+.header{
+    width: 100%;
+    background:#7ab5e9;
+    overflow:hidden;
+    border-bottom: 3px double #265fa6;
+}
+.header h1{
+    line-height:60px;
+    margin:0 20px;
+    font-size:20px;
+    float: left;
+}
+.header_r{
+    width: 264px;
+    height: 22px;
+    float:right;
+    background: #ffffff;
+    margin-right: 30px;
+}
+.header_r .hdl{
+    display:block;
+    width: 20px;
+    height: 22px;
+    float: left;
+}
+.hdc{
+    width: 224px;
+    height: 22px;
+    float: left;
+}
+.hdcl{
+    width: 108px;
+    height: 22px;
+    float: left;
+    padding-left: 30px;
+    line-height: 22px;
+}
+.hdcr{
+    width: 64px;
+    height: 22px;
+    float: right;
+    padding-left: 20px;
+    line-height: 22px;
+}
+
+.img01 {
+    display: block;
+    height: 30px;
+    width: 95px;
+}
+
+
+/******************************************************/
+.left{
+    width: 197px;
+    height: 100%;
+    background: #417ec8;
+    overflow: hidden;
+    float: left;
+}
+.lf01{
+    width: 196px;
+    height: 26px;
+    border-right: 1px solid #407ec7;
+    border-bottom: 1px solid #4f93d0;
+}
+.lf11{
+    width: 170px;
+    height: 13px;
+    border-bottom: 1px solid #5193cf;
+    float: left;
+}
+.lf12{
+    width: 25px;
+    height: 26px;
+    float: right;
+    border-right: 1px solid #4e8cd5;
+}
+.lf13{
+    width: 170px;
+    height: 11px;
+    float: left;
+    border-top: 1px solid #0d64b4;
+}
+.left dl{
+    border: 1px solid #2869bd;
+    border-right: 0;
+}
+.left dt{
+    width: 180px;
+    height: 32px;
+    background: #ffffff;
+    border: 1px solid #0b65b1;
+    padding-left: 14px;
+    line-height: 32px;
+}
+.left dt span{
+    display: block;
+    height: 32px;
+    width: 25px;
+    float: left;
+}
+.left dd{
+    width: 58px;
+    padding-left: 10px;
+    margin-left: 37px;
+}
+.left dd a{
+    color: #b9cbea;
+    line-height: 30px;
+}
+.left dd a:hover{
+    border-bottom: 1px solid cornflowerblue;
+}
+
+/***************** right ****************************/
+.right{
+    height: 100%;
+    overflow: hidden;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

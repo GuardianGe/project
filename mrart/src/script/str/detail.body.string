@@ -1,0 +1,128 @@
+<div id="detail_main_w">
+    <div id="detail_main">
+        <div id="detail_l">
+            <h3>热门推荐</h3>
+            <div class="l_box">
+                <div class="l_img">
+                    <a href="#"><img src="img/img1.jpg"/></a>
+                </div>
+                <p>Estee Lauder雅诗兰黛鲜活亮采晚霜</p>
+                <div class="price">
+                    <strong>￥4.00</strong>
+                    <del>￥4.00</del>
+                </div>
+            </div>
+
+            <div class="l_box">
+                <div class="l_img">
+                    <a href="#"><img src="img/img1.jpg"/></a>
+                </div>
+                <p>Estee Lauder雅诗兰黛鲜活亮采晚霜</p>
+                <div class="price">
+                    <strong>￥4.00</strong>
+                    <del>￥4.00</del>
+                </div>
+            </div>
+
+            <div class="l_box">
+                <div class="l_img">
+                    <a href="#"><img src="img/img1.jpg"/></a>
+                </div>
+                <p>Estee Lauder雅诗兰黛鲜活亮采晚霜</p>
+                <div class="price">
+                    <strong>￥4.00</strong>
+                    <del>￥4.00</del>
+                </div>
+            </div>
+
+            <div class="l_box">
+                <div class="l_img">
+                    <a href="#"><img src="img/img1.jpg"/></a>
+                </div>
+                <p>Estee Lauder雅诗兰黛鲜活亮采晚霜</p>
+                <div class="price">
+                    <strong>￥4.00</strong>
+                    <del>￥4.00</del>
+                </div>
+            </div>
+
+            <div class="l_box">
+                <div class="l_img">
+                    <a href="#"><img src="img/img1.jpg"/></a>
+                </div>
+                <p>Estee Lauder雅诗兰黛鲜活亮采晚霜</p>
+                <div class="price">
+                    <strong>￥4.00</strong>
+                    <del>￥4.00</del>
+                </div>
+            </div>
+
+            <div class="l_box">
+                <div class="l_img">
+                    <a href="#"><img src="img/img1.jpg"/></a>
+                </div>
+                <p>Estee Lauder雅诗兰黛鲜活亮采晚霜</p>
+                <div class="price">
+                    <strong>￥4.00</strong>
+                    <del>￥4.00</del>
+                </div>
+            </div>
+        </div><!--detail_l end-->
+
+        <div id="detail_r">
+            <div class="detail_r_t">
+                搜索结果分类：<span>马克笔/水性笔/油性笔</span>
+            </div>
+            <div class="detail_r_c">
+                <div class="detail_r_c01">
+                    <a href="#" class="left">商品筛选(共 <span>4</span>件商品)</a>
+                    <a href="#" class="right">重置筛选项</a>
+                </div>
+                <div class="detail_r_c02">您已选择：</div>
+                <div class="detail_r_c03">
+                    <h4>品牌：</h4>
+                    <div class="pai">
+                        <a href="#">不限</a><a href="#">中华</a><a href="#">达芬</a>
+                        <a href="#">幼儿</a> <a href="#">大嘴猴</a>
+                        <a href="#">美邦</a> <a href="#">天坛</a>
+                        <a href="#">慕娜美</a> <a href="#">丽唯特</a>
+                        <a href="#">固易</a> <a href="#">大洋</a>
+                    </div>
+                    <div class="more">更多</div>
+                </div>
+            </div><!--detail_r_c end-->
+            <div class="detail_r_m">
+                <div class="left">
+                    <a href="#">默认</a> <a href="#">价格<img src="img/dot1.jpg" /></a> <a href="#">销量<img src="img/dot1.jpg" /></a>&nbsp;
+                    排序：<select>
+                    <option>总访问次数</option>
+                    <option>默认</option>
+                    <option>按时间</option>
+                </select>
+                    <a href="#"><img src="img/dot2.jpg" />大图</a>
+                    <a href="#"><img src="img/dot3.jpg" />列表</a>
+                    <input type="checkbox">仅显示有货
+                </div>
+                <div class="right">
+                    <a class="span"><span id="red">1</span>/<span>1</span></a>
+                    <a class="pagup">上一页</a>
+                    <a class="pagdown">下一页</a>
+                </div>
+            </div><!--detail_r_m end-->
+            <div class="detail_r_list">
+                <div class="detail_r_box">
+                    <div class="detail_r_img">
+                        <a href="goodsinfo.html"><img src="img/img3.jpg" id="pimg"/></a>
+                    </div>
+                    <p id="pname" code="8002">正品 达芬奇牌大号（10CM）棉柳木炭条/木炭笔/手绘碳画笔</p>
+
+                    <div class="detail_r_adds">
+                        <strong id="pprice">9.00</strong><del>9.00</del>
+                        <div class="add" id="add">加入购物车</div>
+                    </div>
+                    <p class="ping">暂无评论</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+<div class="head">
+    <div class="head-info">
+        <div class="head-info-box">
+            <div class="head-left">
+                <span>欢迎来艺先生，请</span>
+                <a href="sign-in.html">登录</a>
+                <a href="sign-up.html">免费注册</a>
+            </div>
+            <div class="head-right">
+                <ul id="hnav">
+                    <li class="hmar">
+                        <div class="navm">
+                            我的订单<i></i></div>
+                        <div class="navList">
+                            <a href="#" target="_blank" title="我的蜂巢">我的蜂巢</a>
+                            <a href="#" target="_blank" title="我的优惠劵">我的优惠劵</a>
+                            <a href="#" target="_blank" title="我的花粉">我的花粉</a>
+                            <a href="#" target="_blank" title="我的收藏">我的收藏</a>
+                            <a href="#" target="_blank" title="我的评价">我的评价</a>
+                            <a href="#" target="_blank" title="0元抽奖">0元抽奖</a>
+                        </div>
+                    </li>
+                    <li><span></span><div class="navList"></div></li>
+                    <li><span></span><div class="navList"></div></li>
+                    <li>
+                        <div class="navm">快速导航<i></i></div>
+                        <div class="navList nl">
+                            <a href="#" target="_blank" title="帮助中心">帮助中心</a>
+                            <a href="#" target="_blank" title="艺先生校园">艺先生校园</a>
+                            <a href="#" target="_blank" title="推荐好友">推荐好友</a>
+                            <a href="#" target="_blank" title="猜你喜欢">猜你喜欢</a>
+                            <a href="#" target="_blank" title="合作专区">合作专区</a>
+                        </div>
+                    </li>
+                    <li class="nobg"><a href="#">收藏艺先生</a><div class="navList"></div></li>
+                    <li class="li-phone">
+                        <a href="#" class="fcolor"><span></span>手机艺先生</a>
+                        <div class="navList l">
+                            <a href="#"><img src="img/ma.jpg" alt="" width="112" height="112"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="head-main">
+            <div class="head-main-box">
+                <div class="searchl">
+                    <h1><a href="index.html"><img src="img/logo.jpg" alt=""></a></h1>
+                </div>
+                <div class="searchc">
+                    <form action="" method="post" class="searchc-box">
+                        <input type="text" placeholder="搜索关键词" class="seatxt">
+                        <button class="seabtn">搜&nbsp索</button>
+                    </form>
+                    <div class="hots">
+                        <span>热门：</span>
+                        <a href="#">素描纸</a>
+                        <a href="#">水粉</a>
+                        <a href="#">画笔</a>
+                        <a href="#">马克笔</a>
+                        <a href="#">铅笔</a>
+                    </div>
+                </div>
+                <div class="searchr">
+                    <a href="goodscar.html"> <span></span>我的购物车<div id="shopnum">0</div></a>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="navbox">
+                    <ul class="navt">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="#">品牌区 </a></li>
+                        <li><a href="#">会员中心</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">限时优惠</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
