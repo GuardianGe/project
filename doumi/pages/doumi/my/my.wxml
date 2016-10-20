@@ -1,0 +1,58 @@
+<view class="my-container">
+   <view class="my-header">
+      <image src="/image/sec01.png"/>
+      <view>
+         <b bindtap="signIn">登陆</b>/
+         <b bindtap="signOut">注册</b>
+      </view>
+   </view>
+   <view class="my-section">
+      <ul>
+         <li>
+            <a href="#">
+               <em>我的兼职</em>
+               <span>></span>
+            </a>
+         </li>
+         <li>
+            <a href="#">
+               <em>我的简历</em>
+               <span>></span>
+            </a>
+         </li>
+         <li>
+            <a href="#">
+               <em>我的收藏</em>
+               <span>></span>
+            </a>
+         </li>
+         <li>
+            <a href="#">
+               <em>章鱼俱乐部</em>
+               <b>加入会员享积分奖励<span>></span></b>
+            </a>
+
+         </li>
+         <li>
+            <a href="#">
+               <em>推荐给朋友</em>
+               <i>成功推荐积分奖励<span>></span></i>
+            </a>
+
+         </li>
+         <li>
+            <a href="#">
+               <em>联系客服</em>
+               <b>4007-3333-00<span>></span></b>
+            </a>
+         </li>
+      </ul>
+   </view>
+  
+</view>
+ <!--<import src="/tpls/signin.wxml" />
+ <import src="/tpls/signout.wxml" />
+<import src="/tpls/actionsheet.wxml" />
+<template is="signin" data="{{modelHidden1, ...userInfo}}"></template>
+<template is="signout" data="{{modelHidden2, ...userInfo}}"></template>
+<template is="actionsheet" data="{{...actionSheet}}"></template>-->

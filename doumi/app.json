@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/doumi/main/main",
+    "pages/doumi/message/message",
+    "pages/doumi/my/my",
+    "pages/doumi/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fbbc05",
+    "navigationBarTitleText": "斗米兼职",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#0dc441",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/doumi/main/main",
+        "text": "首页",
+        "iconPath": "image/main.png",
+        "selectedIconPath": "image/main_light.png"
+      },
+      {
+        "pagePath": "pages/doumi/message/message",
+        "iconPath": "image/message.png",
+        "selectedIconPath": "image/message_light.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/doumi/my/my",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my_light.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

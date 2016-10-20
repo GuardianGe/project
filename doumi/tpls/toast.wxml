@@ -1,0 +1,10 @@
+<template name="toast">
+  <view class="body-view">
+    <toast hidden="{{toastHidden1}}" bindchange="toastChange1">
+      投诉成功~
+    </toast>
+    <toast hidden="{{toastHidden2}}" bindchange="toastChange2">
+      请登录官网联系客服~
+    </toast>
+  </view>
+</template>

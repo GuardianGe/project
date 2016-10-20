@@ -1,0 +1,57 @@
+.ms-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ms-section{
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+}
+.ms-section ul{
+  width: 100%;
+  display: block;
+  border-top: 1px solid #dddddd;
+}
+.ms-section li{
+  display: block;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+}
+.ms-section li a{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ms-section image{
+  width: 38px;
+  height: 38px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+.secright{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  line-height: 20px;
+  padding: 0 10px;
+}
+.secright b{
+  font-size: 14px;
+  font-weight: 600;
+}
+.secright span{
+  color: #6b6b6b;
+  font-size: 10px;
+}
+.ms-section scroll-view {
+  height: 100%;
+}
+#ms-refresh button,#ms-more button{
+  border: 0;
+  font-size: 12px;
+  color: #6b6b6b;
+}

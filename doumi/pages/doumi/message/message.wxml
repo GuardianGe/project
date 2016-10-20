@@ -1,0 +1,29 @@
+<view class="ms-container">
+    <view>
+        <loading hidden="{{loadingHidden}}">
+            加载中...
+        </loading>
+    </view>
+    <view class="ms-section">
+        <scroll-view hidden="{{loadingHidden}}" scroll-y="true" bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" upper-threshold="0" lower-threshold="0"  scroll-top="{{refreshHidden ? 1 : 0}}"                                                                                                                                              >
+            <view hidden="{{refreshHidden}}" id="ms-refresh">
+                <button plain="true" loading="true">努力刷新中...</button>
+            </view>
+            <ul>
+                <li wx:for="{{news}}" wx:for-item="item">
+                    <a href="#">
+                        <image src="{{item.url}}" />
+                        <view class="secright">
+                            <b>{{item.name}}</b>
+                            <span>{{item.text}}</span>
+                        </view>
+                    </a>
+                </li>
+            </ul>
+
+            <view hidden="{{loadmoreHidden}}" id="ms-more">
+                <button plain="true" loading="true">加载中...</button>
+            </view>
+        </scroll-view>
+    </view>
+</view>

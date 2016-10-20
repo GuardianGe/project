@@ -1,0 +1,103 @@
+<view class="main-container">
+    <view class="{{isScroll ? 'actives'  : ''}} main-header" style="top:{{headerTop}};">
+        <navigator url="#"><text>北京</text></navigator>
+        <input type="text" placeholder="搜索职位"/>
+        <b><image src="/image/h02.png "/></b>
+    </view>
+    <view>
+        <loading hidden="{{loadingHidden}}">
+            加载中...
+        </loading>
+    </view>
+    <view class="main-list">
+        <scroll-view bindscroll="actionScroll" hidden="{{loadingHidden}}" scroll-y="true" bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" upper-threshold="0" lower-threshold="0"  scroll-top="{{refreshHidden ? 1 : 0}}"                                                                                                                                              >
+            <view hidden="{{refreshHidden}}" id="main-refresh">
+                <button plain="true" loading="true">努力刷新中...</button>
+            </view>
+
+            <view class="main-banner">
+                <swiper class="banner-swiper" indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}">
+                    <swiper-item>
+                        <image src="/image/banner01.jpg"/>
+                    </swiper-item>
+                    <swiper-item>
+                        <image src="/image/banner02.png"/>
+                    </swiper-item>
+                    <swiper-item>
+                        <image src="/image/banner03.jpg"/>
+                    </swiper-item>
+                    <swiper-item>
+                        <image src="/image/banner04.jpg"/>
+                    </swiper-item>
+                </swiper>
+            </view>
+
+            <view class="main-nav">
+                <view>
+                    <navigator url="/doumi/detail/detail.wxml">
+                        <i class="nav01"></i>
+                        <b>全部兼职</b>
+                    </navigator>
+                </view>
+                <view>
+                    <navigator url="#">
+                        <i class="nav02"></i>
+                        <b>斗米担保</b>
+                    </navigator>
+                </view>
+                <view>
+                    <navigator url="#">
+                        <i class="nav03"></i>
+                        <b>在线兼职</b>
+                    </navigator>
+                </view>
+                <view>
+                    <navigator url="#">
+                        <i class="nav04"></i>
+                        <b>商家合作</b>
+                    </navigator>
+                </view>
+            </view>
+            <view class="main-section">
+                <view class="sectop">
+                    <i>
+                        <image src="/image/xin.png"/>
+                        <span>猜你喜欢</span>
+                    </i>
+                    <navigator url="#">更多>></navigator>
+                </view>
+                <ul class="seccenter">
+                    <li wx:for="{{list}}" wx:for-item="item">
+                        <navigator url="../detail/detail">
+                            <view class="navigator">
+                                <view class="secleft">
+                                    <image src="{{item.url}}"/>
+                                    <span>报名中</span>
+                                </view>
+                                <view class="secright">
+                                    <view class="secright-t">
+                                        <span>{{item.name}}</span>
+                                        <b>奖</b>
+                                    </view>
+                                    <view class="secright-c">
+                                        <b><image src="/image/sec04.png"/>{{item.address}}</b>
+                                        <i>{{item.price}}</i>
+                                    </view>
+                                    <view class="secright-b">
+                                        <i>斗米担保</i>
+                                        <em>{{item.date}}</em>
+                                    </view>
+                            </view>
+                        </view>
+                        </navigator>
+                    </li>
+                </ul>
+            </view>
+
+            <view hidden="{{loadmoreHidden}}" id="main-more">
+                <button plain="true" loading="true">加载中...</button>
+            </view>
+        </scroll-view>
+    </view>
+
+</view>

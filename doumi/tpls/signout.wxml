@@ -1,0 +1,16 @@
+<template name="signout">
+    <view style="display: absolute;z-index: 9999">
+        <model title="标题" confirm-text="注册" cancel-text="取消"  hidden="{{modelHidden2}}" bindconfirm="actionConfirm" bindcancel="actionCancel">
+            <view class="section2">
+                <label>
+                    <text>用户名：</text>
+                    <input type="text" placeholder="注册用户名" value="{{username}}" bindinput="saveUsername" auto-focus />
+                </label>
+                <label>
+                    <text>密码：</text>
+                    <input type="text" placeholder="请输入密码" value="{{password}}" bindinput="savePassword" password="true" />
+                </label>
+            </view>
+        </model>
+    </view>
+</template>

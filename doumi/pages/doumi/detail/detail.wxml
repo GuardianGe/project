@@ -1,0 +1,85 @@
+<view class="detail-container">
+    <view class="detail-header">
+        <image src="/image/banner11.jpg"/>
+    </view>
+    <view class="content">
+        <view class="navigator">
+            <view class="secleft">
+                <image src="/image/sec01.png"/>
+            </view>
+            <view class="secright">
+                <view class="secright-t">
+                    <span>175/天淘宝客服(不可在家)</span>
+                    <b>奖</b>
+                </view>
+                <view class="secright-c">
+                    <b><image src="/image/sec04.png"/>北京</b>
+                    <i>175元/天</i>
+                </view>
+                <view class="secright-b">
+                    <i>斗米担保</i>
+                    <em>09.19~12.21</em>
+                </view>
+            </view>
+        </view>
+    </view>
+    <navigator url="#">
+        <view class="gift">
+            <text>点击领取兼职大礼包~</text>
+            <span>></span>
+        </view>
+    </navigator>
+    <view class="section">
+        <span>古星电子</span>
+        <view>
+            <b>类型：</b><em>话务客服</em>
+        </view>
+        <view>
+            <b>人数：</b><em>100人，男女不限</em>
+        </view>
+        <view>
+            <b>日期：</b><em>10.25~01:00 每周休一天</em>
+         </view>
+         <view>
+             <b>薪资：</b><em>每月结算</em>   
+         </view>
+         <view class="safe">
+             <strong>斗米担保</strong>                 
+             <i>斗米担保职位工资按时结算，适用斗米用户权益保障担保赔付条款</i>
+          </view>
+    </view>
+    <view class="place">
+        <view class="ptop">
+           <b>工作地点</b>
+           <span>更多(2)>></span>
+        </view>
+        <view class="pbottom">
+            <b>地址：</b><i>北京市丰台区北京诺德中心</i>
+        </view>
+    </view>
+    
+    <view class="content">
+        <view class="contop">推荐职位</view>
+        <block wx:for="{{commend}}">
+            <view class="navigator">
+                <view class="secleft">
+                    <image src="{{item.url}}"/>
+                </view>
+                <view class="secright">
+                    <view class="secright-t">
+                        <span>{{item.name}}</span>
+                        <b>奖</b>
+                    </view>
+                    <view class="secright-c">
+                        <b><image src="/image/sec04.png"/>{{item.address}}</b>
+                        <i>{{item.price}}</i>
+                    </view>
+                    <view class="secright-b">
+                        <i>斗米担保</i>
+                        <em>{{item.date}}</em>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

@@ -1,0 +1,62 @@
+.my-container {
+  height: 100%;
+  display: flex;
+  background-color: papayawhip;
+  flex-direction: column; }
+  .my-container .my-header {
+    display: flex;
+    flex-direction: row;
+    background: url("../../../image/my01.png") no-repeat;
+    background-size: cover;
+    padding: 34px 0 34px 8%; }
+    .my-container .my-header image {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%; }
+    .my-container .my-header view {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      line-height: 56px;
+      margin-left: 15px; }
+      .my-container .my-header view b {
+        font-size: 16px;
+        font-weight: 600; }
+  .my-container .my-section {
+    display: flex;
+    width: 100%;
+    margin-top: 10px; }
+    .my-container .my-section ul, .my-container .my-section li {
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #dddddd;
+      box-sizing: border-box;
+      background: #fff; }
+    .my-container .my-section a {
+      display: flex;
+      width: 100%;
+      padding: 0 8px;
+      flex-direction: row;
+      justify-content: space-between;
+      box-sizing: border-box;
+      line-height: 32px;
+      font-size: 12px;
+      color: #282828; }
+      .my-container .my-section a i {
+        color: #6b6b6b; }
+      .my-container .my-section a b {
+        color: orange; }
+      .my-container .my-section a span {
+        color: #282828;
+        margin-left: 4px; }
+      .section2 label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px; }
+        .section2 label text {
+          width: 100px;
+          text-align: right; }
+        .section2 label input {
+          flex: 1;
+          border-bottom: solid 1rpx #ccc; }
