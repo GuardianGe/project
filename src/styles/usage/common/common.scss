@@ -1,0 +1,205 @@
+[type=tpl] {
+  display: none;
+}
+
+$baseColor: #fbbc05;
+@font-face {
+    font-family: 'iconfont';
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    src:url('/images/iconfont/iconfont.woff') format('woff'),
+    /* chrome、firefox */
+     url('/images/iconfont/iconfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('/images/iconfont/iconfont2.woff') format('truetype'),
+  url('/images/iconfont/iconfont2.woff') format('svg');
+}
+
+.iconfont {
+  font-family: iconfont;
+}
+
+%header {
+  header {
+    height: .45rem;
+    font-size:0.20rem;
+    color: #fff;
+    font-weight: 600;
+    ul{
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      background-color: $baseColor;
+      li{
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        height: 100%;
+        &:nth-child(1) {
+          width: .80rem;
+          height: 100%;
+          line-height: .45rem;
+          font-size: .20rem;
+          color: #fff;
+          font-weight: normal;
+          b{
+            padding-right: .02rem;
+          }
+        }
+        &:nth-child(2) {
+          @include flex(1);
+        }
+        &:nth-child(3) {
+          width: .80rem;
+          height:.45rem;
+          padding-left: .35rem;
+          font-size: .24rem;
+        }
+      }
+    }
+  }
+}
+%moreload{
+  .head {
+      text-align: center;
+      height: 0.35rem;
+      line-height: 0.35rem;
+  }
+
+  .head img {
+      width: 0.16rem;
+      display: inline-block;
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transition: transform 150ms;
+      -webkit-transition: transform 150ms;
+  }
+
+  .up {
+      transform: rotate(360deg) !important;
+      -webkit-transform: rotate(360deg) !important;
+  }
+
+  .foot {
+      text-align: center;
+      height: 0.35rem;
+      line-height: 0.35rem;
+  }
+
+  .foot img {
+      display: inline-block;
+      width: 0.16rem;
+      /*transform: rotate(0deg);*/
+      /*-webkit-transform: rotate(0deg);*/
+      transition: transform 150ms;
+      -webkit-transition: transform 150ms;
+  }
+
+  .down {
+      transform: rotate(180deg) !important;
+      -webkit-transform: rotate(180deg) !important;
+  }
+}
+%content{
+  .content-center{
+    width: 100%;
+    li{
+      width: 100%;
+      padding: .15rem .10rem;
+      @include flexbox();
+      @include flex-direction(row);
+      @include align-items(center);
+      .content-left{
+        width: .54rem;
+        position: relative;
+        margin-bottom:.02rem;
+        img{
+          width:.56rem;
+          height: .56rem;
+          border-radius: .10rem;
+        }
+        span{
+          display: block;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          padding-top: 12%;
+          text-align: center;
+          font-size: .12rem;
+          line-height: 1;
+          border-bottom-left-radius: 3px;
+          border-bottom-right-radius: 3px;
+          color: #fff;
+          background: url("/images/sec02.png") no-repeat center top;
+          background-size: cover;
+          position: absolute;
+        }
+      }
+      .content-right{
+        width: 100%;
+        @include flex(1);
+        margin-left: .10rem;
+        div{
+          width: 100%;
+          @include flexbox();
+          @include justify-content(space-between);
+          @include align-items(space-between);
+        }
+        div:nth-child(1){
+          span{
+            display: block;
+            width: 80%;
+            line-height: .18rem;
+            color: #282828;
+            font-size: .16rem;
+            font-weight: 500;
+            @include ellipsis();
+          }
+          i{
+            height: .16rem;
+            width: .16rem;
+            text-align: center;
+            font-size: .12rem;
+            line-height: .16rem;
+            margin-right: .08rem;
+            border-radius: 2px;
+            color: #fff;
+            background:url("/images/sec03.png") no-repeat;
+            background-size: cover;
+          }
+        }
+        div:nth-child(2){
+          b{
+            font-weight: 500;
+            font-size: .12rem;
+            color: #808080;
+          }
+          i{
+            font-size: .18rem;
+            color: #ea4335;
+            font-family: Arial;
+            line-height: 0.18rem;
+          }
+        }
+        div:nth-child(3){
+          span{
+            display: block;
+            width: .60rem;
+            height: .18rem;
+            color: #34a853;
+            text-align: center;
+            line-height: .14rem;
+            border: 1px solid #34a853;
+            margin-left: .06rem;
+            font-size: .10rem;
+          }
+          i{
+              color: #888;
+              font-size: .14rem;
+            }
+        }
+      }
+    }
+   }
+}

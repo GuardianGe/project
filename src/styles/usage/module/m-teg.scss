@@ -1,0 +1,66 @@
+.teg-container {
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    header{
+      width: 100%;
+      text-align: center;
+      height: .45rem;
+      line-height: .45rem;
+      background-color: $baseColor;
+      color: #fff;
+    }
+    nav {
+    height: 0.35rem;
+
+    ul {
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        background: #fff;
+
+        li {
+            @include flex(1);
+            @include border(0 0 1px 0, #d9d9d9);
+            font-size: 0.14rem;
+            text-align: center;
+            line-height: 0.35rem;
+
+            &.active {
+                border-bottom: solid 0.02rem $baseColor;
+                color: $baseColor;
+            }
+        }
+    }
+}
+
+    > section {
+        @include flex(1);
+        overflow: hidden;
+        width: 100%;
+        background: #fff;
+        .swiper-container {
+            height: 100%;
+            .swiper-wrapper {
+              height: 100%;
+              .swiper-slide {
+                height: 100%;
+              }
+            }
+            section {
+                height: 100%;
+                @include box-sizing(border-box);
+                padding: 0 4px;
+                @extend %moreload;
+                @extend %content;
+            }
+        }
+    }
+}
+
+.fade-transition {
+  transition: opacity .2s ease;
+}
+.fade-enter, .fade-leave {
+  opacity: 0;
+}

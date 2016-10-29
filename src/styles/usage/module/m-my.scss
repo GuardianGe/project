@@ -1,0 +1,58 @@
+.my-container {
+  height: 100%;
+  background-color: papayawhip;
+  @include flexbox;
+  @include flex-direction(column);
+  .my-header {
+    padding: .34rem 0 .34rem 8%;
+    background: url('/images/my01.png');
+    background-size: cover;
+    @include flexbox();
+    @include flex-direction(row);
+    img{
+      width: .56rem;
+      height: .56rem;
+      border-radius: 50%;
+    }
+    div{
+      line-height: .56rem;
+      margin-left: .15rem;
+      @include flex(1);
+      @include flexbox();
+      @include flex-direction(row);
+      b{
+        font-size: .16rem;
+        font-weight: 600;
+      }
+    }
+  }
+  .my-section {
+    width: 100%;
+    ul{
+      background: #fff;
+      li{
+        width: 100%;
+        padding: 0 .08rem;
+        line-height: .38rem;
+        font-size: .12rem;
+        color: #282828;
+        @include border(0 0 1px 0,#ddd);
+        @include box-sizing(border-box);
+        @include flexbox();
+        @include flex-direction(row);
+        @include justify-content(space-between);
+        i{
+          color: #6b6b6b;
+        }
+        b{
+          color: orange;
+        }
+        span{
+          color: #282828;
+          font-weight: normal;
+          margin-left: .04rem;
+        }
+      }
+    }
+  }
+}

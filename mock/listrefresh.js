@@ -1,0 +1,20 @@
+module.exports = {
+  "data":[
+    {
+      "id":6,
+      "url":"/images/sec06.jpg",
+      "name":"新国展协助管餐110/天",
+      "address":"大兴",
+      "price":"110元",
+      "date":"10.26~11.02"
+    },
+    {
+      "id":7,
+      "url":"/images/sec06.jpg",
+      "name":"美食节促销员",
+      "address":"昌平",
+      "price":"165元",
+      "date":"10.27~12.21"
+    }
+  ]
+}

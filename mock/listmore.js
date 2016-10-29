@@ -1,0 +1,20 @@
+module.exports = {
+  "data":[
+    {
+      "id":8,
+      "url":"/images/sec07.jpg",
+      "name":"英语编辑实习生",
+      "address":"海淀",
+      "price":"130元",
+      "date":"09.15~12.21"
+    },
+    {
+      "id":9,
+      "url":"/images/sec01.png",
+      "name":"住户民意调查",
+      "address":"北京",
+      "price":"130元",
+      "date":"09.12~12.21"
+    }
+  ]
+}
