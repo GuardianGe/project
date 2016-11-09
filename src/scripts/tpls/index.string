@@ -1,0 +1,47 @@
+<div class="controller">
+  <div class="header">
+    <h1>友谊服饰后台管理系统</h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-2">
+      <div class="box-l">
+        <dl class="men-t">
+          <dt><a href="#/home">男士上装</a></dt>
+          <dd><a href="#/home">夹克</a></dd>
+          <dd><a href="#/mwy">卫衣</a></dd>
+          <dd><a href="#/home">毛衣</a></dd>
+          <dd><a href="#/mwy">长袖T恤</a></dd>
+          <dd><a href="#/home">羽绒服</a></dd>
+          <dd><a href="#/mwy">棉服</a></dd>
+        </dl>
+        <dl class="men-b">
+          <dt><a href="#/home">男士下装</a></dt>
+          <dd><a href="#/home">牛仔裤</a></dd>
+          <dd><a href="#/mwy">休闲裤</a></dd>
+          <dd><a href="#/home">卫裤</a></dd>
+          <dd><a href="#/mwy">短裤</a></dd>
+        </dl>
+        <dl class="women-t">
+          <dt><a href="#/home">女士上装</a></dt>
+          <dd><a href="#/home/course">礼服</a></dd>
+          <dd><a href="#/mwy">卫衣</a></dd>
+          <dd><a href="#/home">毛衣</a></dd>
+          <dd><a href="#/mwy">长袖T恤</a></dd>
+          <dd><a href="#/home">羽绒服</a></dd>
+          <dd><a href="#/mwy">棉服</a></dd>
+        </dl>
+        <dl class="women-b">
+          <dt><a href="#/home">女士下装</a></dt>
+          <dd><a href="#/home">牛仔裤</a></dd>
+          <dd><a href="#/mwy">休闲裤</a></dd>
+          <dd><a href="#/home">运动裤</a></dd>
+          <dd><a href="#/mwy">背带裤</a></dd>
+        </dl>
+      </div>
+
+    </div>
+    <div class="col-xs-10">
+        <ng-view></ng-view>
+    </div>
+  </div>
+</div>

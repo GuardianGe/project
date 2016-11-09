@@ -1,0 +1,31 @@
+.controller{
+  overflow-x: hidden;
+}
+.header{
+  background: #000;
+  height: 60px;
+}
+.header h1{
+  line-height: 60px;
+  margin: 0 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.col-xs-2{
+  background: #ccc;
+  padding: 20px;
+}
+.box-l{
+  width: 80%;
+  margin: 0 auto;
+}
+.box-l dt{
+  margin: 5px 0;
+  font-weight: 600px;
+}
+.box-l dd{
+  margin-left: 10px;
+}
+.col-xs-10 {
+  padding: 50px 50px 0 20px;
+}

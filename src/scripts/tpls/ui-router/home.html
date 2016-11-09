@@ -1,0 +1,33 @@
+
+<search></search>
+<p>
+  搜索：<input class="form-control" ng-model="keywords">
+</p>
+<table class="table table-bordered">
+    <tr class="well">
+      <td>id</td>
+      <td>图片</td>
+      <td>名称</td>
+      <td>品牌</td>
+      <td>价格</td>
+      <td>颜色</td>
+      <td>适合人群</td>
+    </tr>
+    <tr ng-repeat="product in products | orderBy:'id'| filter:keywords">
+      <td>{{product.id}}</td>
+      <td class="tdCenter"><img ng-src="{{product.src}}" alt="{{product.name}}"></td>
+      <td>
+        <a href="#/homeDetail/{{product.id}}"><b>{{product.name}}</b></a>
+      </td>
+      <td>{{product.brand}}</td>
+      <td>
+        {{product.price | currency:'￥'}}
+      </td>
+      <td>
+        {{product.color}}
+      </td>
+      <td>
+        {{product.pep}}
+      </td>
+    </tr>
+  </table>

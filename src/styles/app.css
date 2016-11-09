@@ -1,0 +1,6 @@
+
+@import './common/rest.css';
+@import './build/index.css';
+
+@import './views/home.css';
+@import './views/detail.css';
